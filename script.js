@@ -20,4 +20,4 @@ form.addEventListener("submit", function (e) {
   feedback.textContent = "Thank you! Your message is ready to send.";
   form.reset();
 });
-<script src="script.js"></script>
+
