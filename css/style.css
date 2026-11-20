@@ -100,3 +100,27 @@ h1,
 h2 {
   color: #1b5e20;
 }
+
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1rem;
+}
+.card {
+  display: block;
+  padding: 1.2rem;
+  background-color: #e8f5e9;
+  border: 2px solid #1b5e20;
+  border-radius: 8px;
+  color: #222222;
+  text-decoration: none;
+}
+.card:hover,
+.card:focus {
+  background-color: #c8e6c9;
+}
+.card h3 {
+  margin-top: 0;
+  color: #1b5e20;
+}
