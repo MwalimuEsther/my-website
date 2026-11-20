@@ -77,7 +77,7 @@ iframe {
 }
 
 .hero {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url("../hero.webp.jpeg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url("../hero.webp.webp");
   background-size: cover;
   background-position: center;
   color: #ffffff;
